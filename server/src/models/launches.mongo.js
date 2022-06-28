@@ -11,4 +11,4 @@ const launchesSchema = mongoose.Schema({
     success: { required: true, type: Boolean, default: true, },
 })
 
-mod.exports = mongoose.model('Launch', launchesSchema)
+module.exports = mongoose.model('Launch', launchesSchema)
